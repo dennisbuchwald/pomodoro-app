@@ -2,6 +2,8 @@
 
 Dies ist eine Pomodoro-App, die mit React und Next.js erstellt wurde. Die App hilft Benutzern, ihre Produktivität zu steigern, indem sie die Pomodoro-Technik anwenden, die eine effektive Methode zur Zeitverwaltung ist.
 
+Probiere sie aus: https://pomodoro-app-amber-two.vercel.app/
+
 ## Installation
 
 Um die App auszuführen, führen Sie die folgenden Schritte aus:
