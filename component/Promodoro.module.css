@@ -52,6 +52,13 @@
 .workTimeInput {
   margin: 10px;
 }
+
+.buttonContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .button {
   background-color: #4f5d75;
   color: white;
@@ -59,8 +66,19 @@
   padding: 1rem 2rem;
   border: none;
   border-radius: 0.5rem;
-  margin: 0 1rem;
+  margin: 0.5rem;
   cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .buttonContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .button {
+    width: 100%;
+  }
 }
 
 .button:hover {
